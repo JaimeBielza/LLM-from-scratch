@@ -43,8 +43,6 @@ def create_dataloader_v1(txt, batch_size=4, max_length=256, stride=128,
 
 
 if __name__ == '__main__':
-    if torch.backends.mps.is_available() == False:
-        print(f'Pytorch acelerator for Apple Silicon: False')
 
     with open('./the-verdict.txt', 'r', encoding = 'utf-8') as f:
         text = f.read()
