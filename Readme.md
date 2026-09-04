@@ -21,7 +21,7 @@ El uso de la agentes de codificación basados en IA, solamente los estoy usando 
 No tendria sentido.
 
 ## Fases del proyecto finalizadas 
-- Fase 1: Tokenizador. -> Cración de un tokenizar propio. Más adelante usaremos tiktoken. []
+- Fase 1: Tokenizador. -> Cración de un tokenizar propio. Más adelante usaremos tiktoken. [OK]
 - Fase 2: Attention -> Crear el bloque multi-head attention. (En desarrollo)
 
 
