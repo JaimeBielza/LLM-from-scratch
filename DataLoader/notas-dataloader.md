@@ -48,7 +48,7 @@ Ejemplo con `max_length = 4` y la secuencia `[1, 2, 3, 4, 5, 6, 7]`:
 
 
 
-## 4. `GPTDatasetV1`: la clase Dataset
+## La clase Dataset
 
 
 - `__init__`: recibe el texto completo, lo tokeniza entero una vez, y con la
@@ -59,7 +59,7 @@ Ejemplo con `max_length = 4` y la secuencia `[1, 2, 3, 4, 5, 6, 7]`:
 
 
 
-## 5. `create_dataloader_v1`: el DataLoader de PyTorch
+## El DataLoader de PyTorch
 
 Encima del Dataset, se usa `torch.utils.data.DataLoader`, que es lo que añade
 todo lo demás para entrenar en la práctica. 
