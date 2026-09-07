@@ -21,7 +21,9 @@ El uso de la agentes de codificación basados en IA, solamente los estoy usando 
 No tendria sentido.
 
 ## Fases del proyecto finalizadas 
-- Fase 1: Tokenizador. [OK]
+- Fase 0: Utils: Archivo con funciones compartidas y re-utilziadas en todo el módulo [OK]**[Continuo desarrollo]
+
+- Fase 1: Tokenizador. [OK] 01/09/2026
 - Fase 2: Dataset & DataLoader. [OK] 04/09/2026
 - Fase 3: Attention. -> Ongoing
 
