@@ -31,4 +31,4 @@ if __name__ == '__main__':
     pos_embeddings = poss_embeddings_layer(torch.arange(max_length))
 
     inputs_embeddings = token_embeddings_layer + pos_embeddings
-
+    print(f"inputs embeddings: \n{inputs_embeddings}")

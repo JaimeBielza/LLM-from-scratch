@@ -2,6 +2,10 @@ import os
 from time import time
 import re
 
+import tiktoken
+
+tokenizer = tiktoken.get_encoding("gpt2")
+
 class SimpleTokenizerV1:
     def __init__(self, vocab):
         self.str_to_int = vocab

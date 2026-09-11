@@ -1,0 +1,40 @@
+# --- Entorno virtual ---
+LLMvenv/
+.venv/
+venv/
+env/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Artefactos de modelos / datos pesados ---
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.gguf
+*.ckpt
+checkpoints/
+wandb/
+
+# --- Datasets locales (descomenta si no quieres subirlos) ---
+# the-verdict.txt
+# data/
+
+# --- macOS ---
+.DS_Store
+
+# --- Editores ---
+.vscode/
+.idea/
+
+# --- Entorno / secretos ---
+.env
+
+# -- Archivos que no quiero subir --
+fase4_attention/selfAttention.py

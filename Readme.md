@@ -25,14 +25,16 @@ No tendria sentido.
 
 - Fase 1: Tokenizador. [OK] 01/09/2026
 - Fase 2: Dataset & DataLoader. [OK] 04/09/2026
-- Fase 3: Embeddings -> En el directorio /fase3_embeddings ilustramos porqué son importantes y cómo se crean los embeddings.
-- Fase 4: Attention. -> Ongoing
-
+- Fase 3: Embeddings -> En el directorio /fase3_embeddings ilustramos porqué son importantes y cómo se crean los embeddings. [OK] 09/09/2026
+- Fase 4: Attention:
+  - Fase 4.1: selfAttention -> [OK] 09/09/2026
+  - Fase 4.2: CausalAttention -> [OK] 11/09/2026 
+  - Fase 4.3: MultiHead Attention -> Ongoing
 
 ## Sobre mí
 
 Ingeniero de telecomunicaciones.  
 Doctorando en Quantum Machine Learning @UAM bajo dirección de Elias Combarro.  
-Consultor de IA.  
-Investigador independiente.  
+Senior AI Engenieer.  
+Investigador independiente || Divulgador científico: @AIrQuantumLab.  
 Contacto: jbielzapoza@gmail.com. 
